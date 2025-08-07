@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>¡Alerta de Seguridad!</title>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: #ff4c4c;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+      max-width: 700px;
+      margin-bottom: 2rem;
+    }
+
+    .warning {
+      background-color: #000;
+      border: 3px solid #ff4c4c;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 0 20px #ff4c4c;
+    }
+
+    .footer {
+      color: #999;
+      font-size: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="warning">
+    <h1>⚠️ ¡CUIDADO!</h1>
+    <p>
+      Acabás de escanear un <strong>código QR desconocido</strong>.  
+      Si este fuera malicioso, podrías haber sido víctima de:
+    </p>
+    <ul style="text-align: left; font-size: 1.2rem;">
+      <li>🎯 Phishing</li>
+      <li>💣 Descarga de malware</li>
+      <li>🕵️ Robo de datos</li>
+      <li>🧠 Ingeniería social</li>
+    </ul>
+    <p>
+      🔐 <strong>La ciberseguridad comienza con vos.</strong><br/>
+      Nunca escaneés códigos QR que no sabés a dónde llevan.
+    </p>
+  </div>
+  <div class="footer">
+    Campaña educativa del curso de Ciberseguridad – CTP de Hojancha 💻🧠
+  </div>
+</body>
+</html>
